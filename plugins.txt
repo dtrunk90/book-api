@@ -1,0 +1,7 @@
+blueocean
+dependency-check-jenkins-plugin
+docker-workflow
+git
+junit
+warnings-ng
+workflow-aggregator

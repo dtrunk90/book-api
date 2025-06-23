@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <Match>
+        <Class name="~com\\.github\\.dtrunk90\\.bookapi\\.model\\.Book\\$\\$.*"/>
+    </Match>
+
+    <Match>
+        <Class name="com.github.dtrunk90.bookapi.model.Book"/>
+        <Bug pattern="EI_EXPOSE_REP"/>
+    </Match>
+
+    <Match>
+        <Class name="com.github.dtrunk90.bookapi.model.Book"/>
+        <Bug pattern="EI_EXPOSE_REP2"/>
+    </Match>
+</FindBugsFilter>
